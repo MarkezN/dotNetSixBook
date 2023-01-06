@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DkJBxn0QjI6ryynC4tJlHBqDzozm2KcEm6SgYfPtdIk=",
+  "Hash": "1ehWw0qx3CDGwxupcSXREt/9kYqQhmXCpImqGiSCm10=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BulkyBookWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\bootswatch.css",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "css/bootswatch.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatch.css"
     },
     {
       "Identity": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\site.css",

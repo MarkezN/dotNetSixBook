@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BulkyBookWeb.bundle.scp.css"
     },
     {
+      "Id": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\bootswatch.css",
+      "PackagePath": "staticwebassets\\css\\bootswatch.css"
+    },
+    {
       "Id": "C:\\DotNetCore\\BulkyBook\\BulkyBookWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

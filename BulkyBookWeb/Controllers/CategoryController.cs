@@ -19,5 +19,27 @@ namespace BulkyBookWeb.Controllers
             IEnumerable<Category> categories = _db.Categories.ToList();
             return View(categories);
         }
+
+        //GET
+        public IActionResult Create()
+        {
+          
+            return View();
+        }
+
+        //POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(Category obj)
+        {
+
+            if (ModelState.IsValid)
+            {
+                _db.Categories.Add(obj);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(obj);
+        }
     }
 }
