@@ -1,11 +1,9 @@
 ﻿@model IEnumerable<Category>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Categories</h1>
-    
-    <h1>Something</h1>
-</div>
-
+@if(TempData["success"] != null)
+{
+    <h2>@TempData["success"]</h2>
+}
 
 <div class="container p-3">
         <div class="row pt-4">
@@ -28,6 +26,12 @@
             <th>
                 Display order
             </th>
+                <th>
+                    Edit 
+                </th>
+                <th>
+                    Delete
+                </th>
         </tr>
     </thead>
     <tbody>
@@ -40,6 +44,16 @@
                 <td width="50%">
                     @item.DisplayOrder
                 </td>
+                    <td width="50%">
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.Id"> Edit</a>
+                        </div>
+                    </td>
+                    <td width="50%">
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id"> Delete</a>
+                        </div>
+                    </td>
             </tr>
         }
     </tbody>
